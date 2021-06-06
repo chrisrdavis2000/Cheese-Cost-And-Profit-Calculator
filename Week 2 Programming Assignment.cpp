@@ -6,6 +6,7 @@
 #include <string>
 using namespace std;
 
+//Declaring Constants
 const double CHEESE_MASS = 2.76;
 const double CHEESE_COST = 4.12;
 const double CHEESE_PROFIT = 1.45;
@@ -21,7 +22,7 @@ int main()
 
     //Outputs Program Title With Manipulators
     cout << setw(80) << setfill('*') << "*" << endl;
-    cout << setw(60) << setfill('*') << "Welcome to my Cheesey Program" << setw(20) << right << "*" << endl;
+    cout << setw(60) << setfill('*') << "Cheese Cost And Profit Calculator" << setw(20) << right << "*" << endl;
     cout << setw(80) << setfill('*') << "*" << endl;
     cout << setfill(' ');
 

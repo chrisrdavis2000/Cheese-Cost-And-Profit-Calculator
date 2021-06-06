@@ -19,10 +19,16 @@ int main()
     string message2;
 
 
-    //Program Title
-    cout << "*******************************************************************************" << endl;
-    cout << "***********************Cheese Cost And Profit Calculator***********************" << endl;
-    cout << "*******************************************************************************" << endl << endl;
+    //Outputs Program Title With Manipulators
+    cout << setw(80) << setfill('*') << "*" << endl;
+    cout << setw(60) << setfill('*') << "Welcome to my Cheesey Program" << setw(20) << right << "*" << endl;
+    cout << setw(80) << setfill('*') << "*" << endl;
+    cout << setfill(' ');
+
+    //Outputs Program Title
+    //cout << "*******************************************************************************" << endl;
+    //cout << "***********************Cheese Cost And Profit Calculator***********************" << endl;
+    //cout << "*******************************************************************************" << endl << endl;
 
     //Asks User To Enter Amount Of Cheese Produced
     cout << "Please enter the total number of kilograms of cheese produced: ";
